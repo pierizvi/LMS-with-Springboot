@@ -94,7 +94,7 @@
                     <div class="detail-label">Publication Date:</div>
                     <div>
                         <c:if test="${not empty book.publicationDate}">
-                            <fmt:formatDate value="${book.publicationDate}" pattern="MMMM d, yyyy" />
+                            ${book.publicationDate}
                         </c:if>
                     </div>
                 </div>
